@@ -1,0 +1,114 @@
+
+.pricing-hero {
+  min-height: 55vh;
+  background: var(--primary-gradient);
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+.pricing-table {
+  background: #fff;
+  padding: 3rem 0 2rem 0;
+}
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.price-card {
+  background: var(--glass);
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(20,168,0,0.09);
+  padding: 2.4rem 2rem 2rem 2rem;
+  width: 320px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid #e7ffe5;
+  position: relative;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: box-shadow .2s, transform .2s;
+}
+.price-card.best {
+  border: 2.5px solid #14A800;
+  background: #e7ffe5;
+  box-shadow: 0 8px 28px rgba(20,168,0,0.10);
+}
+.price-card h3 {
+  font-size: 1.2rem;
+  font-family: 'Cinzel', serif;
+  color: #14A800;
+  margin-bottom: 0.5rem;
+}
+.price-main {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+  color: #14A800;
+}
+.price-card .small {
+  color: #1c4e2d;
+  font-size: 1.06rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+.price-card ul {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+.price-card ul li {
+  margin: 0.4rem 0;
+  font-size: 1.04rem;
+  color: #222;
+}
+.badge {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.98rem;
+  padding: 0.21rem 1rem;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.pricing-compare {
+  background: #f4faf6;
+  padding: 3rem 0 2.5rem 0;
+}
+.compare-table {
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
+  overflow-x: auto;
+}
+.compare-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 14px rgba(20,168,0,0.07);
+}
+.compare-table th, .compare-table td {
+  padding: 1rem 0.6rem;
+  border-bottom: 1px solid #e0f0e6;
+  text-align: center;
+  font-size: 1.08rem;
+}
+.compare-table th {
+  background: #e7ffe5;
+  font-family: 'Cinzel', serif;
+  color: #14A800;
+}
+.compare-table td.green, .compare-table td.bold {
+  color: #14A800;
+  font-weight: 700;
+}
