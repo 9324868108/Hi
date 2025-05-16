@@ -1,0 +1,34 @@
+
+  min-height: 45vh;
+  background: var(--primary-gradient);
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+.privacy-section {
+  background: #fff;
+  padding: 3rem 0 2.5rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.privacy-text {
+  font-size: 1.10rem;
+  color: #192e21;
+  margin-bottom: 1.7rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity .8s, transform .8s;
+}
+.privacy-list {
+  margin: 0 0 1.7rem 0;
+  color: #222;
+  font-size: 1.06rem;
+  padding-left: 2.2rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity .8s, transform .8s;
+}
+.privacy-list li { margin-bottom: .7rem;}
